@@ -1,6 +1,6 @@
 public class Example01 {
 	public static void main(String[] args) {
-		int[] arr={9,8,3,5,2};
+		int[] arr={12,6,4,8,3};
 		//1.冒泡排序前。县循环打印数组元素
 		for (int i=0;i<arr.length;i++){
 			System.out.print(arr[i]+" ");
@@ -25,3 +25,4 @@ public class Example01 {
 		}
 	}
 }
+//使用冒泡排序对数组元素12、6、4、8、3进行从小到大排序
